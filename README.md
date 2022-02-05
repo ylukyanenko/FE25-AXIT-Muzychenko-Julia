@@ -1,1 +1,1 @@
-# FE25-AXIT-Muzychenko-Yulia
+# FE25-AXIT-Muzychenko-Julia
