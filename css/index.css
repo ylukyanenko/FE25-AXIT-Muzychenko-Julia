@@ -1,3 +1,6 @@
+@import url(../css/awesome.css);
+@import url(../css/cdn.css);
+
 *{
   margin: 0;
   padding: 0;
@@ -5,18 +8,22 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 .container{
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
 }
+
 .title{
   text-align: center;
-}
-
-.line{
-  width: 64px;
-  height: 2px;
-  background-color: #D98943;
-  margin: auto;
+  margin: 0 auto 25px;
+  font-size: 36px;
+  padding: 100px 0 0;
+  width: 668px;
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #212121;
 }
