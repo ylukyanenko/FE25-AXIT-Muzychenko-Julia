@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+section{
+  padding: 100px 0;
+}
+
 .container{
   max-width: 1170px;
   padding: 0 15px;
@@ -26,4 +30,21 @@
   font-weight: normal;
   text-transform: uppercase;
   color: #212121;
+}
+
+.line{
+  width: 64px;
+  height: 2px;
+  background-color: #D98943;
+  margin: 0 auto 34px;
+}
+
+.subtitle{
+  text-align: center;
+  margin: 0 auto 68px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #86878b;
+}
+.awesome-card{
 }

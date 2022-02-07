@@ -1,7 +1,47 @@
-.line{
-    width: 64px;
-    height: 2px;
-    background-color: #D98943;
-    margin: auto;
-  }
+.awesome-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  margin: 0 -15px;
+}
+
+.awesome-card {
+  width: 350px;
+  margin: 0 15px;
+}
+
+.awesome-content {
   
+}
+
+.awesome-img {
+  border: 1px solid rgb(231, 35, 35);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+}
+
+.awesome-card-title {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  color: #333333;
+}
+
+.awesome-card-text p{
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+
+.awesome-card-text{
+  padding-bottom: 20px;
+}
