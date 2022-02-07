@@ -13,6 +13,7 @@
 }
 
 .awesome-content {
+  padding: 0 0 20px 0;
   
 }
 
@@ -40,8 +41,4 @@
   text-align: center;
   font-size: 14px;
   color: #000000;
-}
-
-.awesome-card-text{
-  padding-bottom: 20px;
 }
