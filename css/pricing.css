@@ -1,0 +1,60 @@
+.pricing-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.pricing{
+    background-color: #f5f5f5;
+}
+
+.pricing-card{
+    width: 340px;
+    font-family: Open Sans;
+    font-style: normal;
+    margin: 0 15px;
+}
+
+.pricing-card-list{
+    text-align: center;
+}
+
+.pricing-card-list-item{
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878b;
+    line-height: 40px;
+    margin-bottom: 4px;
+    background-color: #ffffff;
+}
+
+.pricing-card-list-item___black-name,
+.pricing-card-list-item___black-price,
+.pricing-card-list-item___black-text{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.pricing-card-list-item___black-name{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 1px;
+}
+
+.pricing-card-list-item___black-price{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 100px;
+    margin-bottom: 2px;
+}
+
+.pricing-card-list-item___black-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50px;
+    margin-bottom: 4px;
+}
