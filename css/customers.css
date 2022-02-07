@@ -1,0 +1,30 @@
+.customers-card{
+    width: 298px;
+    font-family: Open Sans;
+    font-style: normal;
+    margin: 0 15px;
+}
+
+.customers-card-text{
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    margin-bottom: 22px;
+}
+
+.customers-card-text p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+    padding: 9px 22px 6px 23px;
+}
+
+.customers-card-author{
+    margin: auto;
+}
+
+.customers-card-author-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
