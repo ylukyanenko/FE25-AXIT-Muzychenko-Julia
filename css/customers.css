@@ -1,14 +1,26 @@
+.customers-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
 .customers-card{
     width: 298px;
     font-family: Open Sans;
     font-style: normal;
     margin: 0 15px;
+   
 }
 
 .customers-card-text{
     background-color: #e2e2e2;
     border-radius: 7px;
     margin-bottom: 22px;
+    position: relative;
+    top: 0;
+    left: 0;
+   
 }
 
 .customers-card-text p{
@@ -19,8 +31,23 @@
     padding: 9px 22px 6px 23px;
 }
 
+.triangle{
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent; 
+  border-right: 20px solid transparent; 
+  border-top: 20px solid #e2e2e2;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+
+}
+
 .customers-card-author{
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 212px;
 }
 
 .customers-card-author-img img{
@@ -28,3 +55,22 @@
     height: 70px;
     border-radius: 50%;
 }
+.customers-card-name {
+  margin: 0 0 12px;
+}
+.customers-card-name p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  color: #333333;
+
+}
+.customers-card-vacancy p {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  color: #68678b;
+}
+/* border-top: 40px solid transparent;
+  border-right: 80px solid lightblue;
+  border-bottom: 40px solid transparent */

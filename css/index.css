@@ -2,6 +2,7 @@
 @import url(../css/cdn.css);
 @import url(../css/pricing.css);
 @import url(../css/customers.css);
+@import url(../css/axure.css);
 
 *{
   margin: 0;
@@ -19,6 +20,8 @@ section{
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 3;
 }
 
 .title{
@@ -31,6 +34,19 @@ section{
   font-weight: normal;
   text-transform: uppercase;
   color: #212121;
+}
+
+.title-color {
+  color: white;
+}
+
+.title::after{
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;
+  display: block;
+  margin: 34px auto;  
 }
 
 .line{
@@ -46,4 +62,8 @@ section{
   font-size: 14px;
   font-weight: normal;
   color: #86878b;
+}
+
+.subtitle-color{
+  color: rgba(255, 255, 255, 0.8);
 }

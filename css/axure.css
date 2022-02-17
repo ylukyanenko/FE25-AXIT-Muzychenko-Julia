@@ -1,0 +1,42 @@
+.axure{
+    background-image: url("../img/background/background\ axure.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.axure::after{
+    content: "";
+    width:  100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button{
+    display: block;
+    margin: auto;
+    width: 135px;
+    height: 42PX;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+
+
+/* button{
+    width: 135px;
+    height: 32px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+
+} */
