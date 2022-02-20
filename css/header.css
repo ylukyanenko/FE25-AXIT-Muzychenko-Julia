@@ -1,0 +1,45 @@
+.header{
+    padding: 20px 0;
+    background-color: #000000;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo::after{
+    content: "It";
+    color: #ec7979;
+}
+
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    width: 489px;
+}
+
+.navigation-list-item{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.navigation-list-item:hover{
+    border-bottom: 2px solid #da5f5f;
+}

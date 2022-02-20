@@ -29,6 +29,10 @@
     background-color: #ffffff;
 }
 
+.pricing-card-list-item:last-child{
+    margin-bottom: 0;
+}
+
 .pricing-card-list-item___black-name,
 .pricing-card-list-item___black-price,
 .pricing-card-list-item___black-text{
