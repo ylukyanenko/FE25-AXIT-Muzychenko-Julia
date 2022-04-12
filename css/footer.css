@@ -1,0 +1,31 @@
+.footer{
+    background-color: #000000;
+    padding: 30px 0 15px;
+}
+
+.footer-row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    margin: 0 0 18px;
+}
+
+.cellar{
+    font-size: 20px;
+}
+
+.footer-row-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);

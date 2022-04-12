@@ -1,0 +1,18 @@
+.axit{
+    background-image: url("../img/background/background-axit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.axit::after{
+    content: "";
+    width:  100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

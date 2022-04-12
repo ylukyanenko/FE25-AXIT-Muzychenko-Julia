@@ -4,6 +4,9 @@
 @import url(../css/customers.css);
 @import url(../css/axure.css);
 @import url(../css/header.css);
+@import url(../css/axit.css);
+@import url(../css/social.css);
+@import url(../css/footer.css);
 
 *{
   margin: 0;
@@ -23,6 +26,20 @@ section{
   margin: auto;
   position: relative;
   z-index: 3;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo::after{
+  content: "It";
+  color: #ec7979;
 }
 
 .title{

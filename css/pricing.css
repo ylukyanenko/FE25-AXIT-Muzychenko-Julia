@@ -29,6 +29,11 @@
     background-color: #ffffff;
 }
 
+.pricing-card-list-item:hover{
+    box-shadow: 0 0 45px 0 rgb(148, 148, 156);
+    transform: scale(1);
+}
+
 .pricing-card-list-item:last-child{
     margin-bottom: 0;
 }

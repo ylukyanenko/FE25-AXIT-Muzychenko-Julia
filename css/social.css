@@ -1,0 +1,84 @@
+.social{
+    background-color: #F8EFEF;
+    padding: 14px 0 17px;
+}
+
+.social-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-row-content{
+    width: 365px;
+}
+
+.social-row-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0 0 14px;
+}
+
+.social-row-text p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-info{
+    display: flex;
+    justify-content: space-between;
+    width: 489px;
+} 
+
+.change{
+    font-size: 42px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.fa-facebook{
+    color: rgb(59, 89, 152);
+}
+
+.fa-twitter{
+    color: rgb(29, 161, 242);
+}
+
+.fa-google-plus-g{
+    color: rgb(241, 59, 59);
+}
+
+.fa-pinterest{
+    color: rgb(253, 59, 59);
+}
+
+.fa-instagram{
+    color: rgb(188, 42, 141);
+}
+
+.fa-stumbleupon{
+    color: rgb(235, 71, 29);
+}
+
+.fa-wifi{
+    color: rgb(53, 53, 187);
+}
+
+.change:hover{
+    box-shadow: 0 0 15px 2px rgb(148, 148, 156), inset  0 0 15px 2px rgb(148, 148, 156);
+    transform: scale(2) rotate(360deg);
+    
+}
+
+/* .social-info a{
+    font-size: 42px;
+    color: #86878B;
+} */

@@ -28,6 +28,11 @@
   margin: 0 auto 30px;
 }
 
+.awesome-img i{
+  font-size: 30px;
+  color: rgb(231, 35, 35);
+}
+
 .awesome-card-title {
   text-align: center;
   margin-bottom: 16px;
