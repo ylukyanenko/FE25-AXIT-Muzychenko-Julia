@@ -8,7 +8,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0 -15px; */
 }
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 68px;
+  }
+
+  .logo::after{
+    content: "It";
+    color: #ec7979;
+  }
 
 /* .logo {
     font-family: Raleway;
@@ -24,9 +40,12 @@
     color: #ec7979;
 } */
 
+
+
 .navigation-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 489px;
 }
 

@@ -1,0 +1,73 @@
+.tabs-row{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.tabs-card{
+    margin: 0 0 -10px;
+}
+
+.tabs-item{
+    width: 112px;
+    line-height: 110px;
+    background-color: #333333;
+    margin: 0 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+.tabs-item p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tabs-item:hover{
+    background-color: #EC7979;
+    cursor: pointer;
+}
+
+.tabs-content-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs-content-item-left{
+    width: 572px;
+    /* margin-bottom: -30px; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.tabs-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.tabs-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878b;
+    margin: 0 0 30px;
+}
+
+.tabs-content-item-right{
+    width: 320px;
+    height: 256px;
+}
