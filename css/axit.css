@@ -1,4 +1,52 @@
+
 .axit{
+  background-image: url("../img/background/background-axit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.axit-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.axit-card{
+  width: 544px;
+  
+}
+
+.axit-card-span{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  
+}
+
+.axit-card-span::after{
+  content: "It";
+  color: #EC7979;
+}
+
+.axit-card-title{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+
+/* .axit{
     background-image: url("../img/background/background-axit.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -18,11 +66,33 @@
     left: 0;
 }
 
+.axit-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
 /* .axit-card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 } */
+
+/* .axit-logo::after{
+  content: "It";
+  color: #ec7979;
+}
+
+.axit-logo{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
 
 .axit-card-content-text{
     font-family: 'Raleway';
@@ -33,21 +103,6 @@
     width: 544px;
     margin-bottom: 32px;
 }
-
-.axit-logo{
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-  }
-  
-  .axit-logo::after{
-    content: "It";
-    color: #ec7979;
-  }
 
   .axit-card-content-text::after{
       content: "";
@@ -64,11 +119,11 @@
     font-weight: normal;
     color: #86878b;
     margin-bottom: 39px;
-  }
+  } */
 
-  .axit-button{
-    /* display: block;
-    margin: auto; */
+  /* .axit-button{
+    display: block;
+    margin: auto;
     width: 135px;
     height: 42PX;
     font-family: Open Sans;
@@ -80,7 +135,7 @@
     cursor: pointer;
 }
 
-  /* form{
+  form{
     background-color: #ffffff;
     width: 370px;
     overflow: hidden;
@@ -98,17 +153,12 @@
     
   }
   
-  /* .form-title::after{
-    content: "free";
-    color: #ec7979;
-    margin: 0 7px;
-  } */
 
-  /* label{
+  label{
     display: block;
   }
   
   input{
     display: block;
     border: none;
-  } */ */
+  }  */
