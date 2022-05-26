@@ -4,7 +4,19 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* position: relative; */
+  position: relative;
+}
+
+.axit::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+
 }
 
 .axit-row{
@@ -27,7 +39,7 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 32px;
-  
+  display: block;
 }
 
 .axit-card-span::after{
@@ -41,11 +53,116 @@
   font-weight: 400;
   font-size: 36px;
   color: #ffffff;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   text-transform: uppercase;
 }
 
+.axit-card-title::after{
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  margin: 32px 0 39px;
+}
 
+.axit-card-text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffffa9;
+  width: 300px;
+  margin-bottom: 39px;
+}
+
+.axit-card-button{
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.axit-form{
+  width: 370px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.axit-form-content{
+  /* width: 370px; */
+  padding: 14px 59px 61px;
+}
+
+.axit-form-title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  text-transform: capitalize;
+  margin-bottom: 44px;
+}
+
+.form-span{
+  color: #EC7979;
+  text-transform: uppercase;
+}
+
+.axit-form-item{
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+.axit-form-item:last-child{
+  margin-bottom: 0;
+}
+
+label{
+  display: block;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin-bottom: 5px;
+}
+
+input{
+  display: block;
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  width: 100%;
+  outline: none;
+  
+}
+
+button{
+  height: 54px;
+  width: 100%;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #EC7979;
+}
+
+/* input::after{
+  content: "";
+  width: 253px;
+  height: 3px;
+  background-color: #bdbdbd;
+  display: block;
+}
+  */
 /* .axit{
     background-image: url("../img/background/background-axit.png");
     background-repeat: no-repeat;
