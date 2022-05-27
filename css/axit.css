@@ -91,6 +91,7 @@
 
 .axit-form{
   width: 370px;
+  border-radius: 10px;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -118,13 +119,14 @@
 .axit-form-item{
   width: 100%;
   margin-bottom: 19px;
+  
 }
 
 .axit-form-item:last-child{
   margin-bottom: 0;
 }
 
-label{
+.axit-label{
   display: block;
   font-family: 'Open Sans';
   font-style: normal;
@@ -134,19 +136,17 @@ label{
   margin-bottom: 5px;
 }
 
-input{
+.axit-input{
   display: block;
   border: none;
   border-bottom: 2px solid #bdbdbd;
   width: 100%;
   outline: none;
-  
 }
 
-button{
+.axit-button{
   height: 54px;
   width: 100%;
-
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
